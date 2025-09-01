@@ -1,26 +1,60 @@
 #tPrincipal {
-  font-family: "Courier New", Courier, monospace;
-  color: content;
+  color: rgb(255, 255, 255);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border: solid 5px black;
+  width: auto;
+  padding: 10 px;
+  margin-bottom: 15 px;
+  background-color: lightcoral;
+  text-align: center;
 }
-.tsecundario {
-  color: rgb(209, 0, 209);
-  font-family: "Courier New", Courier, monospace;
-}
-p {
-  font-family: "Courier New", Courier, monospace;
+h2,
+h3,
+table {
+  color: darkgreen;
+  div {
+    border-style: solid;
+  }
+  font-family: "Gil Sans MT", "Gill Sans", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 23px;
+  background-color: rgb(66, 76, 227);
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
-#eTab {
-  font-family: "Courier New", Courier, monospace;
-  color: chocolate;
+.margindiv {
+  margin-top: 20px;
 }
 
-table, tr, td, th {
-    border-collapse: collapse;
-    background-color: aqua;
-    border: 1px solid black;
+table,
+th,
+tr {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 
-h1 {
-    color: rgb(66, 76, 227);
+ul {
+  color: crimson;
+}
+
+ol li {
+  color: rgb(211, 211, 221);
+}
+
+table {
+  background-color: lightgrey;
+  color: rgb(143, 96, 15);
+  width: 2rem;
+  height: 10rem;
+}
+
+#seção {
+  background-color: darksalmon;
+  padding: 0.6rem;
+  width: 6rem;
+  text-align: center;
+}
+
+html {
+  background-color: rgb(255, 233, 224);
 }
